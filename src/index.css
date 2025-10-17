@@ -7,3 +7,31 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  background-color: #ead0f2;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.faqCard {
+  background-color: #fff;
+  width: fit-content;
+  display: flex;
+  border-radius: 15px;
+  flex-direction: column;
+  padding: 24px;
+  justify-content: center;
+}
+
+.faqItem {
+  max-width: 500px;
+  margin-bottom: 16px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
